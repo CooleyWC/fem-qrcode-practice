@@ -1,0 +1,38 @@
+/* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+/* 
+  White: hsl(0, 0%, 100%)
+
+  Slate 300: hsl(212, 45%, 89%)
+  
+  Slate 500: hsl(216, 15%, 48%)
+  
+  Slate 900: hsl(218, 44%, 22%) */
+
+
+  *, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .root {
+    --clr--white: hsl(0, 0%, 100%);
+    --clr--slate-light: hsl(212, 45%, 89%);
+    --clr--slate-med: hsl(216, 15%, 48%);
+    --clr--slate-dark: hsl(218, 44%, 22%)
+
+  }
+
+  .container {
+    height: 100vh;
+    background-color: var(--clr--slate-light);
+  }
+
+  .card {
+    height: 400px;
+    width: 300px;
+    background-color: var(--clr--white);
+  }
